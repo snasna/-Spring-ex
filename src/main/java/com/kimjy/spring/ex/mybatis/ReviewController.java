@@ -10,7 +10,7 @@ import com.kimjy.spring.ex.mybatis.bo.ReviewBO;
 import com.kimjy.spring.ex.mybatis.model.Review;
 
 @Controller
-@RequestMapping("/mybatis/ex01")
+@RequestMapping("/mybatis")
 public class ReviewController {
 	
 	@Autowired

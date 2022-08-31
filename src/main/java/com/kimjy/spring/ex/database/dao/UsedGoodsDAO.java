@@ -10,5 +10,5 @@ import com.kimjy.spring.ex.database.model.UsedGoods;
 public interface UsedGoodsDAO {
 	
 	// used goods 의 모든 행을 조회하는 기능
-	public List<UsedGoods> selectUsedGoodsList();
+	public  List<UsedGoods> selectUsedGoodsList();
 }

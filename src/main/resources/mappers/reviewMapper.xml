@@ -45,13 +45,13 @@
 			, #{userName}
 			, #{point}
 			, #{review} 
-			, #{createdAt}
-			, #{updatedAt}
+			, now()
+			, now()
 		)
 			
 	</insert>
 	
-	<insert id="insertReview" parameterType="com.kimjy.spring.ex.mybatis.model.Review">
+	<insert id="insertReviewByObject" parameterType="com.kimjy.spring.ex.mybatis.model.Review">
 		
 		INSERT INTO
 			`new_review`
@@ -72,8 +72,8 @@
 			, #{userName}
 			, #{point}
 			, #{review} 
-			, #{createdAt}
-			, #{updatedAt}
+			, now()
+			, now()
 		)
 			
 	
